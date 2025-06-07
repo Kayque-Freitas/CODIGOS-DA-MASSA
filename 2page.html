@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy! Happy! Happy!</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-img2"></div>
+        <h1 id="branco">Sou um homem feliz!<br>Minha genuina reação</h1>
+        <audio id="bg-music" src="audio/happy-happy-happy-song.mp3" loop></audio>
+        <script>
+            document.addEventListener('click', function playMusic() {
+                document.getElementById('bg-music').play();
+                document.removeEventListener('click', playMusic);
+            });
+        </script>
+</body>
+
+</html>

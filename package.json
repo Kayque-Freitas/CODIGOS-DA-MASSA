@@ -1,0 +1,21 @@
+{
+  "name": "Snoopy Surprise",
+  "version": "1.0.0",
+  "description": "Uma surpresa pra mel. Espero que ela goste.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "romantic",
+    "surprise",
+    "mobile",
+    "website"
+  ],
+  "author": "Kayque",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
